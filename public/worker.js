@@ -1,4 +1,4 @@
-import * as rustWasm from "../pkg/modelwasm.js"
+import * as rustWasm from "./pkg/modelwasm.js"
 
 async function start() {
     console.log("started");
