@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WASM Machine Learning</title>
+        <link rel="stylesheet" href="./simple.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <h1>WASM Machine Learning</h1>
+        <p>Apply a logistic regression to any CSV by selecting a target column and features. It works in any device with a modern browser including your smartphone!</p>
+        <p>Get your Receiver Operating Characteristic curve at the end and try to reach more than a 90% Area Under the Curve!</p>
+        <section>
+            <h2>Select your CSV file!</h2>
+            <p>
+                <input type="file" id="file">
+            </p>
+            <p>
+                <button id="upload">Upload your file!</button> 
+            </p>
+        </section>
+        <div id="output"></div>
+        <script src="./bootstrap.js" type="module"></script>
+    </body>
+</html>

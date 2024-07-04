@@ -1,0 +1,21 @@
+[package]
+name = "modelwasm"
+version = "0.1.0"
+edition = "2021" 
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+argmin = { version = "0.10.0", features = [ "wasm-bindgen" ] }
+base64 = "0.22.1"
+linfa = "0.7.0"
+linfa-logistic = "0.7.0"
+ndarray = "0.15.6"
+plotters = { version="0.3.6", default-features=false, features=["svg_backend", "all_series"] }
+polars = { version = "*", git = "https://github.com/pola-rs/polars", branch = "main", default-features = false, features=["csv","lazy","ndarray"]}
+rayon = "1.10.0"
+serde = "1.0.203"
+serde_json = "1.0.120"
+wasm-bindgen = "0.2.92"
+wasm-bindgen-rayon =  { version = "1.2.1", features = ["no-bundler"]} 
