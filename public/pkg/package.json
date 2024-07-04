@@ -1,0 +1,14 @@
+{
+  "name": "modelwasm",
+  "version": "0.1.0",
+  "files": [
+    "modelwasm_bg.wasm",
+    "modelwasm.js",
+    "modelwasm.d.ts"
+  ],
+  "module": "modelwasm.js",
+  "types": "modelwasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
