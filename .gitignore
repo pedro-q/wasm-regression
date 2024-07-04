@@ -1,2 +1,4 @@
 /target
+
+!/public/pkg/*
 /pkg
