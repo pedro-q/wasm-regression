@@ -1,4 +1,3 @@
 /target
-
-!/public/pkg/*
 /pkg
+!/public/pkg/*
